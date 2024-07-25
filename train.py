@@ -15,10 +15,6 @@ def run() -> None:
     ----------
     None
 
-    Returns
-    -------
-    The generated response from the RAG model.
-
     Process
     -------
     1. Parse the training options
@@ -29,6 +25,10 @@ def run() -> None:
     6. Evaluate the model
     7. Tune the model
     8. Save the model and logs.
+
+    Returns
+    -------
+    The generated response from the RAG model.
     """
     # Parse the training options
     opt = TrainOptions().parse()
