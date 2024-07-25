@@ -17,7 +17,7 @@ def run() -> None:
 
     Returns
     -------
-    None
+    The generated response from the RAG model.
 
     Process
     -------
